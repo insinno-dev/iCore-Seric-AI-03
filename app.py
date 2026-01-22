@@ -85,8 +85,8 @@ if "flow_manager" not in st.session_state:
 # Page title and header
 col1, col2 = st.columns([3, 1])
 with col1:
-    st.title("🔧 Service Repair Assistant")
-    st.markdown("*Guided troubleshooting for home appliances*")
+    st.title("🔧 SERIC - Service Repair Assistant")
+    st.markdown("*Guided troubleshooting for your devices*")
 
 with col2:
     st.markdown("### Status")
@@ -221,7 +221,7 @@ if not flow.is_complete():
 
 else:
     # Session complete - show final output
-    st.success("✅ Repair Session Complete!")
+    st.success("✅ SERIC - Repair Session Complete!")
     
     final_output = flow.get_final_output()
     
@@ -344,6 +344,6 @@ with st.sidebar:
 st.divider()
 st.markdown("""
 ---
-**Service Repair Bot** | Powered by CrewAI, OpenAI, VoyageAI & Qdrant
+**SERIC - Service Repair Bot** | Powered by insinno iCore.AI-Flux
 *For professional service issues, contact manufacturer support.*
 """)
