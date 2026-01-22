@@ -345,5 +345,4 @@ st.divider()
 st.markdown("""
 ---
 **SERIC - Service Repair Bot** | Powered by insinno iCore.AI-Flux
-*For professional service issues, contact manufacturer support.*
 """)
